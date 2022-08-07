@@ -1,0 +1,38 @@
+body{
+	width: 80%;
+	margin: 0 auto;
+    padding-top: 3%;
+	text-align: center;
+	justify-content: center;
+	display: flex; /*ele é aplicado apenas aos elementos filhos*/
+    background-color: #7d7474;
+	
+}
+
+.caixa{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+
+}
+
+.selectPodcast{
+	aling-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+input{
+	display: block;
+	margin: 10px;
+	text-align: center;
+}
+
+#rangeFrequency{
+	width: 500px;
+}
+
+img{
+	width: 200px;
+	height: 200px;
+	border-radius: 10%;
+}
